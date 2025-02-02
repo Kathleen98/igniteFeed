@@ -1,14 +1,17 @@
-import Header from "./components/Header"
+import Header from "./components/Header";
+import style from './app.module.css'
+import SideBar from "./components/SideBar";
 
 function App() {
-
-
   return (
     <>
-    <Header />
-     <h1 style={{color:"#000"}}> OIe</h1>
+      <Header />
+      <div className={style.wrapper}>
+        <SideBar />
+        <main>feed</main>
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
