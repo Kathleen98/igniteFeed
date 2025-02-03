@@ -1,6 +1,6 @@
 import style from './index.module.css'
 
-const Avatar = ({hasBorder = true, src}) => {
+const Avatar = ({hasBorder = true, src = ""}) => {
   return (
     <img className={hasBorder ? style.avatarWithBorder : style.avatar} src={src} />
   )
