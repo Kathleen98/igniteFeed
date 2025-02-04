@@ -9,7 +9,12 @@ Estou desenvolvendo este projeto para treinar e apronfundar meus conhecimentos e
 
 
 ### Tecnologias Utilizadas
-Como ese trata de uma aplicação Single Page Application (SAP), o projeto foi criado com Vite. Essa ferramenta elimina a necessidade de utilizar bundlers ou compiladores complexos, pois utiliza os módulos ES nativos dos navegadores por padrão. Essa abordagem torna a aplicação mais rápida, leve e performática.
+
+- **Vite**
+Como se trata de uma aplicação Single Page Application (SPA), o projeto foi criado com o Vite. Essa ferramenta elimina a necessidade de utilizar bundlers ou compiladores complexos, pois aproveita os módulos ES nativos dos navegadores, tornando a aplicação mais rápida, leve e performática.
+
+- **date-fns**
+Para manipulação de datas, utilizamos a biblioteca date-fns, que oferece funções simples e eficientes para trabalhar com datas em JavaScript.
 
 
-<!-- desenvolver o tópico Funcionalidades   -->
+[Deploy na Vercel](https://ignite-feed-six-opal.vercel.app/)
