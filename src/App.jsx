@@ -29,7 +29,8 @@ const posts = [
     id: 2,
     author: {
       name: "Pipoca",
-      avatarUrl: "https://i.pinimg.com/736x/38/b0/ae/38b0aecaba13391ef232e286a36e5964.jpg",
+      avatarUrl:
+        "https://i.pinimg.com/736x/38/b0/ae/38b0aecaba13391ef232e286a36e5964.jpg",
       role: "Gatinho",
     },
     content: [
@@ -40,7 +41,7 @@ const posts = [
       {
         type: "paragraph",
         content:
-          "Perspiciatis consequuntur minus ipsa nisi repudiandae at quasi, impedit adipisci non in ipsum consequatur enim, ",
+          "Perspiciatis consequuntur ajsdhjkasdh minus ipsa nisi repudiandae at quasi, impedit adipisci non in ipsum consequatur enim, ",
       },
       { type: "link", content: "https://github.com/kathleen98" },
     ],
