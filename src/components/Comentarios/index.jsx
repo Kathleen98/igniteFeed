@@ -2,7 +2,7 @@ import styles from "./index.module.css";
 import { ThumbsUp, Trash } from "phosphor-react";
 import Avatar from "../Avatar/index";
 
-export function Comment({ content, deleteComment }) {
+export function Comment({ content, deleteComment, addLike, like }) {
   const handleDeleteComment = () => {
     deleteComment(content);
   };
@@ -29,9 +29,9 @@ export function Comment({ content, deleteComment }) {
         </div>
 
         <footer>
-          <button>
+          <button onClick={addLike}>
             <ThumbsUp />
-            Aplaudir <span></span>
+            Aplaudir <span>{like}</span>
           </button>
         </footer>
       </div>

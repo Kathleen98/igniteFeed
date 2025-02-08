@@ -8,6 +8,7 @@ import { useState } from "react";
 export function Post({ author, publishedAt, content }) {
   const [comments, setComments] = useState(["oie!"]);
   const [newCommentText, setNewCommentText] = useState("");
+  const [like, setLike] = useState(0);
 
   const publishedAtDateFormatted = format(
     publishedAt,
@@ -37,6 +38,12 @@ export function Post({ author, publishedAt, content }) {
       (comment) => comment !== commentToDelete
     );
     setComments(commentsWithoutDeleteOne);
+  };
+
+  const addLike = () => {
+    setLike((status) => {
+      return status + 1;
+    });
   };
 
   return (
@@ -91,6 +98,8 @@ export function Post({ author, publishedAt, content }) {
       <div className={styles.commentList}>
         {comments.map((comment) => (
           <Comment
+            addLike={addLike}
+            like={like}
             key={comment}
             content={comment}
             deleteComment={deleteComment}
