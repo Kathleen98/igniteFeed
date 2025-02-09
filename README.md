@@ -1,4 +1,4 @@
-# Ignite Feed | 🚧 Projeto em contrução
+# Ignite Feed
 
 ### Objetivo
 
