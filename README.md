@@ -2,7 +2,7 @@
 
 ### Objetivo
 
-Estou desenvolvendo este projeto para treinar e apronfundar meus conhecimentos em React, entendendo melhor o ambiente e as melhores práticas dessa biblioteca. Essa base será fundamental para, futuramente, explorar e compreender o impacto e os conceitos do Next.js.
+Projeto desenvolvido para treinar e apronfundar meus conhecimentos em React, entendendo melhor o ambiente e as melhores práticas dessa biblioteca. Essa base será fundamental para, futuramente, explorar e compreender o impacto e os conceitos do Next.js.
 
 ### Tecnologias Utilizadas
 
